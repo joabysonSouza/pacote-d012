@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root{
+     --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+     --fonte02:'Passion One', cursive;
+     --fonte03 :'Sriracha', cursive;
+
+    
+}
+
+
+ *{
+    padding: 0px;
+    margin: 0px;
+
+}  
+html body{
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.767);
+    
+    
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+header h1{
+    padding-top: 50px;
+    color: white;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 2.5em;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 50px;
+    
+}
+header p{
+    padding-bottom: 50px ;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
+    line-height: 2em;
+    font-family: var(--fonte03);
+}
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+section.imagens{
+    color: white;
+    background-image: url('imagens/background001.jpg');
+    background-color: rgb(41, 40, 40);
+
+}
+
+section.imagens p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 10px 10px 10px;
+    padding: 10px;
+
+    
+
+}
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position:  right center;
+    width: 1300px;
+    height: 400px;
+    box-shadow: inset 6px 6px 18px black;
+
+  
+    
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: right center;
+    width: 1300px;
+    height: 400px;
+    box-shadow: inset 2px 5px 300px black;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
